@@ -32,5 +32,5 @@ func main() {
 	port := fmt.Sprintf(":%d", s.Port)
 
 	http.ListenAndServe(port, r)
-	fmt.Printf("Server al localhost:%d\n", s.Port)
+	fmt.Printf("Server at localhost:%d\n", s.Port)
 }
